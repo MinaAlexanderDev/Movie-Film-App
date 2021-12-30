@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Movie App Mina Alexander</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title">title</string>
+    <string name="vote">vote</string>
+    <string name="body">body</string>
+    <string name="over_view">over view</string>
+    <string name="genres">genres</string>
+    <string name="move_favorite">favorite</string>
+
+
+    <string name="move_watch_now">watch now</string>
+    <string name="movie_top_rate">Top Rated</string>
+    <string name="movie_search">Search</string>
+    <string name="movie_favorite">favorite</string>
+</resources>

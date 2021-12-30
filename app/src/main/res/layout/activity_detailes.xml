@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.DetailesActivity"
+    android:background="@color/purple_200"
+    >
+
+    <fragment
+        android:id="@+id/fragment_detailes"
+        android:name="com.example.MyMovieFilmApp.ui.fragment.moviedetailes.DetailesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_movie_detaile"
+        android:background="@color/purple_200"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

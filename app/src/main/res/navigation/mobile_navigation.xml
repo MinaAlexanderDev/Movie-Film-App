@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/navigation_watch_now"
+        android:name="com.example.MyMovieFilmApp.ui.fragment.watchnow.WatchNowFragment"
+        android:label="Watch Now"
+        tools:layout="@layout/fragment_watch_now" />
+    <fragment
+        android:id="@+id/navigation_top_rated"
+        android:name="com.example.MyMovieFilmApp.ui.fragment.fragmenttoprated.TopRateFragment"
+        android:label="Top Rate"
+        tools:layout="@layout/fragment_top_rated" />
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.MyMovieFilmApp.ui.fragment.searchmovie.SearchFragment"
+        android:label="Move Search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.MyMovieFilmApp.ui.fragment.blanck.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.example.MyMovieFilmApp.ui.fragment.favorite.FavoriteFragment"
+        android:label="FavoriteFragment"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>
